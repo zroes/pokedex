@@ -1,0 +1,44 @@
+/* BASIC STYLES HERE */
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  background-image: url("https://images.hdqwalls.com/wallpapers/pokemon-mystery-dungeon-4k-xc.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.active-img {
+  /* filter: brightness(0) blur(15px); */
+  height: 40vh;
+  width: auto;
+}
+
+#mon-card {
+  position: fixed;
+  width: 40%;
+  /* left: 50vw; */
+}
+
+#favorites-list {
+  position: fixed;
+  top: 117px;
+}
+
+.wider {
+  width: 16vw
+}
+
+.bg-card {
+  background-color: rgba(255, 255, 255, 0.873);
+}
+
+.favorite {
+  color: rgb(31, 31, 31);
+  font-size: 44px;
+  position: absolute;
+}
+
+.favorite:active {
+  color: rgb(242, 43, 73);
+}
